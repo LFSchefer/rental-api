@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 Booking.delete_all
 Reservation.delete_all
-# Mission.delete_all
+Mission.delete_all
 Listing.delete_all
 
 Listing.create!(num_rooms: 2)
